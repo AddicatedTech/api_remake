@@ -1,0 +1,3 @@
+dict_values(['15570496821', 12345678, 1])
+预期： {'code': 0, 'msg': 'OK'}
+实际 {'code': 0, 'msg': 'OK', 'data': {'id': 15843, 'reg_name': '小柠檬', 'mobile_phone': '15570496821'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}

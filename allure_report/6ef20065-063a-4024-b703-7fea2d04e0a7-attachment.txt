@@ -1,0 +1,7 @@
+{'code': 0, 'msg': 'OK', 'data': {'id': 14, 'leave_amount': 2512601.7, 'mobile_phone': '15500000000', 'reg_name': '小柠檬', 'reg_time': '2020-06-03 16:53:45.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-06-14 15:41:42', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjE0LCJleHAiOjE1OTIxMjA1MDJ9.kL_1jNQB4ayd-e-ETVu5FF7re0ttYp8SwauiNxbaa1W-ZqGFxf4uAXRhcMmbN9aCVv_VLGhCg9d2-EoLE9bT-g'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+http://api.lemonban.com/futureloan/member/recharge
+{'member_id': '14', 'amount': 600.22}
+充值之前的金额为：2512601.70
+预期结果：{'code': 0, 'msg': 'OK'}
+实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 14, 'leave_amount': 2513201.92, 'mobile_phone': '15500000000', 'reg_name': '小柠檬', 'reg_time': '2020-06-03 16:53:45.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+充值之后的金额2513201.92

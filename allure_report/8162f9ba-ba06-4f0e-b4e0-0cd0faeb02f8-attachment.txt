@@ -1,0 +1,5 @@
+{'code': 0, 'msg': 'OK', 'data': {'id': 14, 'leave_amount': 2511401.6, 'mobile_phone': '15500000000', 'reg_name': '小柠檬', 'reg_time': '2020-06-03 16:53:45.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-06-14 15:27:35', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjE0LCJleHAiOjE1OTIxMTk2NTV9.y2r-boHT7rhxxdNs69Dpu3ecu5sjsOJw55ZGH1_ZBZc3YNo2wsNd3G8PslZEsD0u5m_cYNA_MtbA_hzKUfzncw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+http://api.lemonban.com/futureloan/member/recharge
+{'member_id': '14', 'amount': '5万'}
+预期结果：{'code': 2, 'msg': '数字格式化异常'}
+实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}

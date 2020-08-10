@@ -1,0 +1,1 @@
+[32mINFO    [0m musen:test_register.py:82 用例--密码17位---执行通过

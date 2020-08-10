@@ -1,0 +1,16 @@
+2020-06-14 16:22:33,898 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为空--执行未通过
+2020-06-14 16:22:33,898 -- [test_charge.py-->line:189] - DEBUG: 预期结果：{'code': 2, 'msg': '金额必须为数值型'}
+2020-06-14 16:22:33,898 -- [test_charge.py-->line:190] - DEBUG: 实际结果：{'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-14 16:22:33,899 -- [test_charge.py-->line:191] - ERROR: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^

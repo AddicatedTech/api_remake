@@ -1,0 +1,156 @@
+-
+  interface: recharge
+  title: 充值成功-整数
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 600
+  expected:
+    code: 0
+    msg: OK
+  check_sql: SELECT leave_amount FROM futureloan.member WHERE id={};
+-
+  interface: recharge
+  title: 充值成功-1位小数
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 600.1
+  expected:
+    code: 0
+    msg: OK
+  check_sql: SELECT leave_amount FROM futureloan.member WHERE id={};
+-
+  interface: recharge
+  title: 充值成功-2位小数
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 600.22
+  expected:
+    code: 0
+    msg: OK
+  check_sql: SELECT leave_amount FROM futureloan.member WHERE id={};
+-
+  interface: recharge
+  title: 充值成功-50万
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 500000
+  expected:
+    code: 0
+    msg: OK
+  check_sql: SELECT leave_amount FROM futureloan.member WHERE id={};
+-
+  interface: recharge
+  title: 会员id为空
+  method: POST
+  url: /member/recharge
+  data:
+    amount: 600
+  expected:
+    code: 1
+    msg: 用户id为空
+-
+  interface: recharge
+  title: id不是当前登录的用户
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: 98989898
+    amount: 600
+  expected:
+    code: 1007
+    msg: 无权限访问，请检查参数
+-
+  interface: recharge
+  title: 会员id为字符串
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 600
+  expected:
+    code: 2
+    msg: 数字格式化异常
+-
+  interface: recharge
+  title: 会员id为小数
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: float(#member_id#)
+    amount: 600
+  expected:
+    code: 2
+    msg: 数字格式化异常
+-
+  interface: recharge
+  title: 充值金额为0
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 0
+  expected:
+    code: 2
+    msg: 金额必须大于0并且小于或者等于500000
+-
+  interface: recharge
+  title: 充值金额为负数
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: -600
+  expected:
+    code: 2
+    msg: 金额必须大于0并且小于或者等于500000
+-
+  interface: recharge
+  title: 充值金额为空
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+  expected:
+    code: 2
+    msg: 金额必须为数值型
+-
+  interface: recharge
+  title: 充值金额-3位小数
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 600.222
+  expected:
+    code: 2
+    msg: 金额小数超过两位
+-
+  interface: recharge
+  title: 充值金额-大于50万
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 6500001
+  expected:
+    code: 2
+    msg: 金额必须大于0并且小于或者等于500000
+-
+  interface: recharge
+  title: 充值金额-大于50万
+  method: POST
+  url: /member/recharge
+  data:
+    member_id: "#member_id#"
+    amount: 5万
+  expected:
+    code: 2
+    msg: 数字格式化异常

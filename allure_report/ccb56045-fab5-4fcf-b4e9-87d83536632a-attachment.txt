@@ -1,0 +1,3 @@
+dict_values([13300003456, 12345678, 2, 12345678909991])
+预期： {'code': 2, 'msg': '不支持的用户类型'}
+实际 {'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}

@@ -1,0 +1,3 @@
+dict_values(['15554147967', 12345678, 1, '34254sdfs'])
+预期： {'code': 0, 'msg': 'OK'}
+实际 {'code': 0, 'msg': 'OK', 'data': {'id': 15792, 'reg_name': '34254sdfs', 'mobile_phone': '15554147967'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}

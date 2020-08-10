@@ -1,0 +1,16 @@
+2020-06-14 16:36:54,723 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:36:54,724 -- [test_charge.py-->line:189] - DEBUG: 预期结果：{'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+2020-06-14 16:36:54,724 -- [test_charge.py-->line:190] - DEBUG: 实际结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-14 16:36:54,724 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^

@@ -1,0 +1,609 @@
+2020-06-14 11:31:27,777 -- [test_login.py-->line:53] - ERROR: 用例注册成功-带注册名---执行不通过
+2020-06-14 11:31:27,777 -- [test_login.py-->line:56] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 49, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:31:28,036 -- [test_login.py-->line:53] - ERROR: 用例成功-不带用户名---执行不通过
+2020-06-14 11:31:28,037 -- [test_login.py-->line:56] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 49, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:31:28,268 -- [test_login.py-->line:53] - ERROR: 用例不输入手机号---执行不通过
+2020-06-14 11:31:28,268 -- [test_login.py-->line:56] - ERROR:  :: 0 != 1
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 49, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1
+2020-06-14 11:35:09,175 -- [test_login.py-->line:53] - ERROR: 用例注册成功-带注册名---执行不通过
+2020-06-14 11:35:09,177 -- [test_login.py-->line:56] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 49, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:35:09,485 -- [test_login.py-->line:53] - ERROR: 用例成功-不带用户名---执行不通过
+2020-06-14 11:35:09,485 -- [test_login.py-->line:56] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 49, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:43:49,324 -- [test_login.py-->line:73] - ERROR: 用例注册成功-带注册名---执行不通过
+2020-06-14 11:43:49,325 -- [test_login.py-->line:76] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 69, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:43:49,587 -- [test_login.py-->line:73] - ERROR: 用例成功-不带用户名---执行不通过
+2020-06-14 11:43:49,588 -- [test_login.py-->line:76] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 69, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:45:14,913 -- [test_login.py-->line:73] - ERROR: 用例注册成功-带注册名---执行不通过
+2020-06-14 11:45:14,914 -- [test_login.py-->line:76] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 69, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:45:15,180 -- [test_login.py-->line:73] - ERROR: 用例成功-不带用户名---执行不通过
+2020-06-14 11:45:15,181 -- [test_login.py-->line:76] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 69, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:48:41,867 -- [test_login.py-->line:73] - ERROR: 用例注册成功-带注册名---执行不通过
+2020-06-14 11:48:41,868 -- [test_login.py-->line:76] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 69, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:48:42,111 -- [test_login.py-->line:73] - ERROR: 用例成功-不带用户名---执行不通过
+2020-06-14 11:48:42,112 -- [test_login.py-->line:76] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 69, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:50:29,354 -- [test_login.py-->line:74] - ERROR: 用例注册成功-带注册名---执行不通过
+2020-06-14 11:50:29,355 -- [test_login.py-->line:77] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 70, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:50:29,623 -- [test_login.py-->line:74] - ERROR: 用例成功-不带用户名---执行不通过
+2020-06-14 11:50:29,623 -- [test_login.py-->line:77] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 70, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:50:53,117 -- [test_login.py-->line:74] - ERROR: 用例注册成功-带注册名---执行不通过
+2020-06-14 11:50:53,118 -- [test_login.py-->line:77] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 70, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 11:50:53,382 -- [test_login.py-->line:74] - ERROR: 用例成功-不带用户名---执行不通过
+2020-06-14 11:50:53,382 -- [test_login.py-->line:77] - ERROR:  :: 0 != 2
+Traceback (most recent call last):
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\testcases\test_login.py", line 70, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Program Files\JetBrains\PyCharm 2019.3.4\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-06-14 16:01:20,188 -- [test_charge.py-->line:188] - ERROR: 用例--会员id为字符串--执行未通过
+2020-06-14 16:01:20,218 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:01:23,092 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为0--执行未通过
+2020-06-14 16:01:23,092 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:01:25,433 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:01:25,434 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:01:27,425 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:01:27,426 -- [test_charge.py-->line:191] - ERROR: assert 1 == 2
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 1 == 2
+2020-06-14 16:01:28,978 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-3位小数--执行未通过
+2020-06-14 16:01:28,979 -- [test_charge.py-->line:191] - ERROR: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+2020-06-14 16:01:29,568 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-大于50万--执行未通过
+2020-06-14 16:01:29,569 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:02:24,784 -- [test_charge.py-->line:188] - ERROR: 用例--会员id为字符串--执行未通过
+2020-06-14 16:02:24,785 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:02:30,137 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为0--执行未通过
+2020-06-14 16:02:30,138 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:02:31,722 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:02:31,723 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:02:32,247 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:02:32,249 -- [test_charge.py-->line:191] - ERROR: assert 1 == 2
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 1 == 2
+2020-06-14 16:02:32,779 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-3位小数--执行未通过
+2020-06-14 16:02:32,780 -- [test_charge.py-->line:191] - ERROR: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+2020-06-14 16:02:33,359 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-大于50万--执行未通过
+2020-06-14 16:02:33,360 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:13:02,058 -- [test_charge.py-->line:188] - ERROR: 用例--会员id为字符串--执行未通过
+2020-06-14 16:13:02,059 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:13:04,357 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为0--执行未通过
+2020-06-14 16:13:04,358 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:13:04,887 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:13:04,887 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:13:05,746 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为空--执行未通过
+2020-06-14 16:13:05,747 -- [test_charge.py-->line:191] - ERROR: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^
+2020-06-14 16:13:07,271 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-3位小数--执行未通过
+2020-06-14 16:13:07,271 -- [test_charge.py-->line:191] - ERROR: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+2020-06-14 16:13:08,968 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-大于50万--执行未通过
+2020-06-14 16:13:08,969 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:22:26,452 -- [test_charge.py-->line:188] - ERROR: 用例--会员id为字符串--执行未通过
+2020-06-14 16:22:26,454 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:22:31,324 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为0--执行未通过
+2020-06-14 16:22:31,325 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:22:33,260 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:22:33,261 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:22:33,898 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为空--执行未通过
+2020-06-14 16:22:33,899 -- [test_charge.py-->line:191] - ERROR: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^
+2020-06-14 16:22:34,434 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-3位小数--执行未通过
+2020-06-14 16:22:34,435 -- [test_charge.py-->line:191] - ERROR: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+2020-06-14 16:22:36,006 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-大于50万--执行未通过
+2020-06-14 16:22:36,007 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:36:50,324 -- [test_charge.py-->line:188] - ERROR: 用例--会员id为字符串--执行未通过
+2020-06-14 16:36:50,364 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:36:52,905 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为0--执行未通过
+2020-06-14 16:36:52,906 -- [test_charge.py-->line:191] - ERROR: assert 2 == 0
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 178, in test_charge
+    assert expected['code'] == result['code']
+AssertionError: assert 2 == 0
+2020-06-14 16:36:54,723 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为负数--执行未通过
+2020-06-14 16:36:54,724 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+2020-06-14 16:36:55,307 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额为空--执行未通过
+2020-06-14 16:36:55,308 -- [test_charge.py-->line:191] - ERROR: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须为数值型' == '余额必须为数值型'
+  - 余额必须为数值型
+  ? ^
+  + 金额必须为数值型
+  ? ^
+2020-06-14 16:37:02,906 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-3位小数--执行未通过
+2020-06-14 16:37:02,907 -- [test_charge.py-->line:191] - ERROR: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额小数超过两位' == '余额小数超过两位'
+  - 余额小数超过两位
+  ? ^
+  + 金额小数超过两位
+  ? ^
+2020-06-14 16:37:03,538 -- [test_charge.py-->line:188] - ERROR: 用例--充值金额-大于50万--执行未通过
+2020-06-14 16:37:03,539 -- [test_charge.py-->line:191] - ERROR: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^
+Traceback (most recent call last):
+  File "F:\柠檬班资料\测开代码存放\api_remake_0614\test_case\test_charge.py", line 179, in test_charge
+    assert expected['msg'] == result['msg']
+AssertionError: assert '金额必须大于0并且小于或者等于500000' == '余额必须大于0并且小于或者等于500000'
+  - 余额必须大于0并且小于或者等于500000
+  ? ^
+  + 金额必须大于0并且小于或者等于500000
+  ? ^

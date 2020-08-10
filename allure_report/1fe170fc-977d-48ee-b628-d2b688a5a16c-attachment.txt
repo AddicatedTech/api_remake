@@ -1,0 +1,3 @@
+dict_values([15500056781, 1234567, 1])
+预期： {'code': 2, 'msg': '密码格式为8到16位'}
+实际 {'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
